@@ -1,11 +1,19 @@
 # PIZZA SALES DATA ANALYSIS PROJECT
-This mini project focuses on processing, cleaning, and analyzing sales data for a pizza chain. 
-The primary goal is to transform raw Excel data into SQL Server, optimize table structures and prepare the data for visualization.
+This project focuses on analyzing sales data for a pizza franchise to optimize the product menu and understand customer purchasing behavior. 
+The goal is to provide actionable insights into revenue drivers and operational efficiency.
 
-## Data Insights
-- Total Revenue Calculation: Computing overall sales performance.
-- Hourly Trend Analysis: Identifying order patterns by time of day.
-- Top Sellers Statistics: Highlighting the best-selling pizza varieties.
+## Business Requirements
+- To evaluate the distribution of orders across different time dimensions and product specifications.
+- To track and rank individual product performance.
+
+## Workflow & Methodology:
+- Accessed and reviewed the [Raw Dataset](./pizza_sales%20raw%20data.xlsx) in **Excel**
+- Imported the raw data into a **SQL** environment for [ETL Data](./Data%20Cleaning%20Pizza_Sales%20Queries.sql) (Extract - Transform - Load)
+
+
+- Power BI, transform data. Thứ nhất là KPI Card, thứ 2 là các biểu đồ mà bên khách hàng yêu cầu
+- file pdf kia dùng khi file power bi nó bị lỗi
+
 
 ## Feedback & Contributions
 This is a sample project created for self-assessment and skill-building. 
